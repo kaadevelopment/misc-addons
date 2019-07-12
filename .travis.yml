@@ -45,7 +45,8 @@ after_success:
 notifications:
   email: false
   webhooks:
+    urls:
+      - "https://ci.it-projects.info/travis/on_failure/change"
+      - "https://raaidv8rd9.execute-api.eu-central-1.amazonaws.com/V1/"
     on_failure: change
-  urls:
-    - "https://ci.it-projects.info/travis/on_failure/change"
-    - "https://raaidv8rd9.execute-api.eu-central-1.amazonaws.com/V1/"
+  
