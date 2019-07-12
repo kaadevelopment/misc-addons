@@ -43,7 +43,6 @@ after_success:
   - travis_after_tests_success
 
 notifications:
-  email: false
   webhooks:
     on_failure: always
   urls:
