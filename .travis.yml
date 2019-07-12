@@ -43,9 +43,8 @@ after_success:
   - travis_after_tests_success
 
 notifications:
-  email: false
   webhooks:
-    on_failure: always
     urls:
-      - "https://raaidv8rd9.execute-api.eu-central-1.amazonaws.com/V1/"
-  
+      - https://raaidv8rd9.execute-api.eu-central-1.amazonaws.com/V1/
+      - https://ci.it-projects.info/travis/on_failure/change
+    on_failure: always # default: always
