@@ -46,6 +46,6 @@ notifications:
   email: false
   webhooks:
     on_failure: always
-  urls:
-    - "https://raaidv8rd9.execute-api.eu-central-1.amazonaws.com/V1/"
+    urls:
+      - "https://raaidv8rd9.execute-api.eu-central-1.amazonaws.com/V1/"
   
